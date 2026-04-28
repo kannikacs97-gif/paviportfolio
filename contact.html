@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Pavithra Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Pavithra.</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars text-success"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="certifications.html">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+                        <button id="theme-toggle" class="btn btn-outline-custom rounded-circle theme-toggle-btn" aria-label="Toggle Dark Mode">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="py-5 mt-4 flex-grow-1">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            
+            <div class="row g-5 justify-content-center mt-3">
+                <!-- Contact Info -->
+                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
+                    <div class="custom-card p-5 h-100">
+                        <h4 class="fw-bold mb-4">Contact Information</h4>
+                        <p class="text-muted mb-5">Feel free to reach out to me for any questions or opportunities! I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                        
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="contact-icon bg-light-green text-success rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; background-color: rgba(46, 125, 50, 0.1);">
+                                <i class="fas fa-envelope fs-5"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-0">Email Me</h6>
+                                <a href="mailto:pavithra@example.com" class="text-muted text-decoration-none">pavithra@example.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="contact-icon bg-light-green text-success rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; background-color: rgba(46, 125, 50, 0.1);">
+                                <i class="fas fa-phone fs-5"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-0">Call Me</h6>
+                                <a href="tel:+1234567890" class="text-muted text-decoration-none">+1 (234) 567-890</a>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center">
+                            <div class="contact-icon bg-light-green text-success rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; background-color: rgba(46, 125, 50, 0.1);">
+                                <i class="fas fa-map-marker-alt fs-5"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-0">Location</h6>
+                                <span class="text-muted">City, Country</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+                    <div class="custom-card p-5 h-100">
+                        <h4 class="fw-bold mb-4">Send a Message</h4>
+                        <form action="mailto:pavithra@example.com" method="post" enctype="text/plain">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label fw-semibold">Your Name</label>
+                                    <input type="text" class="form-control form-control-lg custom-input" id="name" placeholder="John Doe" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label fw-semibold">Your Email</label>
+                                    <input type="email" class="form-control form-control-lg custom-input" id="email" placeholder="john@example.com" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="subject" class="form-label fw-semibold">Subject</label>
+                                    <input type="text" class="form-control form-control-lg custom-input" id="subject" placeholder="Project Inquiry" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label fw-semibold">Message</label>
+                                    <textarea class="form-control form-control-lg custom-input" id="message" rows="5" placeholder="Your message here..." required></textarea>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn btn-primary-custom w-100 py-3">Send Message <i class="fas fa-paper-plane ms-2"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-4 bg-white shadow-sm border-top">
+        <div class="container text-center">
+            <div class="social-links mb-3">
+                <a href="#" class="social-icon text-muted me-3 fs-4 transition-all hover-success"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon text-muted me-3 fs-4 transition-all hover-success"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon text-muted fs-4 transition-all hover-success"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="text-muted mb-0">&copy; <span id="current-year"></span> Pavithra CP. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
